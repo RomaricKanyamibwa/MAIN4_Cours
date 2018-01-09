@@ -1,0 +1,16 @@
+function y=Convole(appro,t,n,a,b)
+
+    =length(t);
+    
+    for i=1:n
+        
+       prod=@(s)(KSI(s)*KSI(t(i)-s));
+        
+       y(i)=appro(prod,n,a,b);
+        
+    end
+
+
+
+
+end

@@ -1,0 +1,9 @@
+function y=KSI(s)
+
+    n=s
+    y=(1/2)*(s>=-1 && s<=1);
+    
+
+
+
+end
